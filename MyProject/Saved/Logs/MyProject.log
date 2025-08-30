@@ -2349,3 +2349,28 @@ Sampler Limit: 32
 [2025.08.30-06.57.18:895][411]LogBlueprint: Error: [AssetLog] C:\Users\ktc\Documents\Public\MyProject\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] このブループリント(自身)は UserWidget ではないため、' Target 'には接続が必要です。
 [2025.08.30-06.57.19:019][411]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
 [2025.08.30-06.57.48:895][581]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2025.08.30-07.00.53:372][519]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2961.658936
+[2025.08.30-07.00.53:738][523]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-07.00.53:739][523]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2961.958740, Update Interval: 305.370636
+[2025.08.30-07.06.43:822][207]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3312.098633
+[2025.08.30-07.06.44:328][212]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-07.06.44:328][212]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3312.471680, Update Interval: 328.457275
+[2025.08.30-07.06.58:833][341]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2025.08.30-07.07.28:707][627]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2025.08.30-07.07.28:713][627]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.047
+[2025.08.30-07.07.28:713][627]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.08.30-07.07.28:736][627]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.08.30-07.07.28:736][627]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.08.30-07.07.28:759][627]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto4
+[2025.08.30-07.07.28:759][627]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject/Saved/BP_ThirdPersonCharacter_Auto465D7A522478485DFEFCCE3AD83377134.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto4.uasset'
+[2025.08.30-07.07.28:760][627]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BPI_Boll] ([2] browsable assets)...
+[2025.08.30-07.07.28:768][627]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BPI_Boll.BPI_Boll]
+[2025.08.30-07.07.28:768][627]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BPI_Boll]
+[2025.08.30-07.07.28:776][627]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BPI_Boll_Auto4
+[2025.08.30-07.07.28:776][627]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject/Saved/BPI_Boll_Auto49C2F427C4914A88D37826EB6929BB362.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject/Saved/Autosaves/Game/ThirdPerson/Blueprints/BPI_Boll_Auto4.uasset'
+[2025.08.30-07.07.28:778][627]LogFileHelpers: Auto-saving content packages took 0.066
+[2025.08.30-07.13.11:948][487]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3700.232666
+[2025.08.30-07.13.12:349][491]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-07.13.12:349][491]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3700.532715, Update Interval: 350.884735
+[2025.08.30-07.13.22:991][598]LogDerivedDataCache: C:/Users/ktc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.30-07.14.21:344][201]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
