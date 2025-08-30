@@ -1485,3 +1485,1004 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.08.30-04.35.53:296][ 18]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.08.30-04.35.53:970][ 20]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-xHwXBDAjTUybFEPsWyKLzQ-MCv9OusY-0urFkgiXIu0lQ]
 [2025.08.30-04.36.32:085][137]LogDerivedDataCache: C:/Users/ktc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.30-04.40.29:582][996]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2025.08.30-04.40.29:651][996]LogContentBundle: [ThirdPersonMap(スタンドアロン)] Generating Streaming for 0 Content Bundles.
+[2025.08.30-04.40.29:651][996]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.08.30-04.40.29:657][996]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 6.702 ms
+[2025.08.30-04.40.29:658][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.30-04.40.29:672][996]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.08.30-04.40.29:672][996]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.08.30-04.40.29:672][996]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.08.30-04.40.29:680][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008236s)
+[2025.08.30-04.40.29:680][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.008317s)
+[2025.08.30-04.40.29:755][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.08.30-04.40.29:757][996]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.08.30-04.40.29:760][996]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.08.30-04.40.29:760][996]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.08.30-04.40.29:760][996]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.08.30-04.40.29:760][996]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.08.30-04.40.29:762][996]LogWorldPartition: Display: WorldPartition initialize took 2.115 ms (total: 322.408 ms)
+[2025.08.30-04.40.29:762][996]LogPlayLevel: PIE: World Init took: (0.005356s)
+[2025.08.30-04.40.29:764][996]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.08.30-04.40.29:764][996]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.30-04.40.29:764][996]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.30-04.40.29:764][996]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.30-04.40.29:764][996]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.30-04.40.29:764][996]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.30-04.40.29:764][996]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.30-04.40.29:764][996]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.30-04.40.29:764][996]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.30-04.40.29:764][996]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.30-04.40.29:764][996]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.30-04.40.29:764][996]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.30-04.40.29:767][996]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.30-04.40.29:789][996]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2025.08.30-04.40.29:789][996]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.30-04.40.29:789][996]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.30-04.40.29:789][996]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.30-04.40.29:790][996]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.08.30-04.40.29:790][996]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.08.30-04.40.29:793][996]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.08.30-04.40.29:793][996]LogInit: FAudioDevice initialized with ID 2.
+[2025.08.30-04.40.29:793][996]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.08.30-04.40.29:793][996]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2025.08.30-04.40.29:793][996]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.08.30-04.40.29:797][996]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.08.30-04.40.29:800][996]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.08.30-13.40.29
+[2025.08.30-04.40.29:800][996]LogWorld: Bringing up level for play took: 0.002509
+[2025.08.30-04.40.29:803][996]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2025.08.30-04.40.29:837][996]PIE: サーバーにログインしました
+[2025.08.30-04.40.29:838][996]PIE: PIE合計開始時間 0.25 秒。
+[2025.08.30-04.40.40:948][268]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.08.30-04.41.02:648][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.30-04.41.02:649][367]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.08.30-04.41.02:649][367]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.08.30-04.41.02:649][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.30-04.41.02:649][367]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.08.30-04.41.02:654][367]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.30-04.41.02:657][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.30-04.41.02:680][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.30-04.41.02:680][367]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.08.30-04.41.02:680][367]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.08.30-04.41.02:683][367]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.08.30-04.41.02:693][367]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.08.30-04.41.02:818][368]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2025.08.30-04.41.26:419][398]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 374.452759
+[2025.08.30-04.41.26:678][401]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.08.30-04.41.26:706][402]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-04.41.26:706][402]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 374.716583, Update Interval: 312.995392
+[2025.08.30-04.41.33:503][552]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.08.30-04.41.38:566][660]LogStreaming: Display: FlushAsyncLoading(390): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.30-04.41.38:670][661]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.08.30-04.41.40:440][693]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: ================================================
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Total job queries 1,325, among them cache hits 201 (15.17%), DDC hits 1,109 (83.70%), Duplicates 12 (0.91%)
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Tracking 1,112 distinct input hashes that result in 871 distinct outputs (78.33%)
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: RAM used: 565.65 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Shaders Compiled: 3
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Jobs assigned 3, completed 3 (100%)
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Job execution time: average 2.25 s, max 2.85 s
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Job life time (pending + execution): average 2.29 s, max 2.89
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Shader code size: average 8.066 KiB, min 6.211 KiB, max 10.801 KiB
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.90 s
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Average processing rate: 1.04 jobs/sec
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Total thread time: 3.107 s
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Total thread preprocess time: 106.016 s
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Percentage time preprocessing: 3412.58%
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Effective parallelization: 1.07 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.66 sec, max 1.66 sec, min 1.66 sec)
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.86 sec, max 0.86 sec, min 0.86 sec)
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display:             TShadowDepthPSPixelShadowDepth_OnePassPointLight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.41.44:029][773]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 53.59% of total time (compiled    1 times, average 1.66 sec, max 1.66 sec, min 1.66 sec)
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.61% of total time (compiled    1 times, average 0.86 sec, max 0.86 sec, min 0.86 sec)
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 18.80% of total time (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display:             TShadowDepthPSPixelShadowDepth_OnePassPointLight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display: === Material stats ===
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display: Materials Translated:    134
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display: Material Total Translate Time: 0.49 s
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display: Material Translation Only: 0.27 s (54%)
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.30-04.41.44:030][773]LogShaderCompilers: Display: ================================================
+[2025.08.30-04.41.45:094][795]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.08.30-04.41.45:182][796]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.08.30-04.41.45:256][797]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.08.30-04.41.45:603][804]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.08.30-04.41.45:682][805]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.08.30-04.42.03:489][182]LogWindowsTextInputMethodSystem: Activated input method: 日本語 (日本) - Microsoft IME (TSF IME).
+[2025.08.30-04.43.47:034][991]LogStreaming: Display: FlushAsyncLoading(391): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.30-04.44.33:510][245]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.08.30-04.44.41:100][454]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.08.30-04.44.41:333][454]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.08.30-04.44.41:450][454]LogStreaming: Display: FlushAsyncLoading(393): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.30-04.44.43:211][454]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.08.30-04.44.43:504][454]LogAutomationController: Ignoring very large delta of 2.41 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.30-04.44.44:049][462]LogShaderCompilers: Display: ================================================
+[2025.08.30-04.44.44:049][462]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.30-04.44.44:049][462]LogShaderCompilers: Display: Total job queries 1,334, among them cache hits 201 (15.07%), DDC hits 1,112 (83.36%), Duplicates 12 (0.90%)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Tracking 1,121 distinct input hashes that result in 877 distinct outputs (78.23%)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: RAM used: 567.42 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Shaders Compiled: 9
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Jobs assigned 9, completed 9 (100%)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Average time worker was idle: 48.76 s
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.11 s
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Job execution time: average 1.85 s, max 2.85 s
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Job life time (pending + execution): average 1.93 s, max 2.89
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Shader code size: average 8.361 KiB, min 5.742 KiB, max 12.332 KiB
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.09 s
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Average processing rate: 1.11 jobs/sec
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Total thread time: 9.675 s
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Total thread preprocess time: 106.242 s
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Percentage time preprocessing: 1098.09%
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Effective parallelization: 1.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 1.69 sec, max 1.70 sec, min 1.66 sec)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.93 sec, max 1.03 sec, min 0.86 sec)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.61 sec, max 0.66 sec, min 0.58 sec)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display:             TShadowDepthPSPixelShadowDepth_OnePassPointLight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 52.25% of total time (compiled    3 times, average 1.69 sec, max 1.70 sec, min 1.66 sec)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.91% of total time (compiled    3 times, average 0.93 sec, max 1.03 sec, min 0.86 sec)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 18.83% of total time (compiled    3 times, average 0.61 sec, max 0.66 sec, min 0.58 sec)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display:             TShadowDepthPSPixelShadowDepth_OnePassPointLight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: === Material stats ===
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Materials Translated:    139
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Material Total Translate Time: 0.50 s
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Material Translation Only: 0.27 s (53%)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.30-04.44.44:050][462]LogShaderCompilers: Display: ================================================
+[2025.08.30-04.46.29:639][745]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69.Sphere_03F17D69
+[2025.08.30-04.46.29:641][745]LogStaticMesh: Display: スタティックメッシュをビルド中 Sphere_03F17D69 (推定必須メモリ：4.785744 MB)...
+[2025.08.30-04.46.29:649][745]LogActorFactory: Actor Factory spawned StaticMesh /Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69.Sphere_03F17D69 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B025AA434A13328A02_1536778023
+[2025.08.30-04.46.29:665][745]LogStaticMesh: Built static mesh [0.03s] /Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69.Sphere_03F17D69
+[2025.08.30-04.46.29:666][745]LogStaticMesh: Display: スタティック メッシュの準備ができるのを待ってます。0/1 (/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69)…
+[2025.08.30-04.46.35:804][886]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69.Sphere_03F17D69
+[2025.08.30-04.46.35:805][886]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69.Sphere_03F17D69
+[2025.08.30-04.46.35:806][886]LogActorFactory: Actor Factory spawned StaticMesh /Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69.Sphere_03F17D69 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_17
+[2025.08.30-04.46.37:161][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2025.08.30-04.46.37:163][917]LogEditorActor: Deleted 0 Actors (0.321 secs)
+[2025.08.30-04.46.37:172][917]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69.Sphere_03F17D69
+[2025.08.30-04.46.37:172][917]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69.Sphere_03F17D69
+[2025.08.30-04.46.37:179][917]LogActorFactory: Actor Factory spawned StaticMesh /Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69.Sphere_03F17D69 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_B025AA434A13328A02_1544309024
+[2025.08.30-04.46.38:616][960]Cmd: DELETE
+[2025.08.30-04.46.38:616][960]Cmd: ACTOR DELETE
+[2025.08.30-04.46.38:625][960]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.08.30-04.46.38:665][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.08.30-04.46.38:667][960]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2025.08.30-04.46.42:939][ 72]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 690.973450
+[2025.08.30-04.46.43:273][ 79]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-04.46.43:273][ 79]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 691.240540, Update Interval: 348.346802
+[2025.08.30-04.47.10:369][370]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2025.08.30-04.47.10:379][370]LogContentBrowser: Creating deferred item: NewMaterial
+[2025.08.30-04.47.10:397][371]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2025.08.30-04.47.11:494][406]LogContentBrowser: Attempting asset rename: NewMaterial -> NewMaterial
+[2025.08.30-04.47.11:498][406]LogContentBrowser: End creating deferred item NewMaterial
+[2025.08.30-04.47.14:428][483]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial.NewMaterial
+[2025.08.30-04.47.14:533][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png' error.
+[2025.08.30-04.47.14:533][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png
+[2025.08.30-04.47.14:533][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png' error.
+[2025.08.30-04.47.14:533][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png
+[2025.08.30-04.47.14:533][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png' error.
+[2025.08.30-04.47.14:533][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png
+[2025.08.30-04.47.14:533][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png' error.
+[2025.08.30-04.47.14:533][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png' error.
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png' error.
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png' error.
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png' error.
+[2025.08.30-04.47.14:534][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png
+[2025.08.30-04.47.14:534][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png' error.
+[2025.08.30-04.47.14:535][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png
+[2025.08.30-04.47.14:535][483]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png' error.
+[2025.08.30-04.47.14:535][483]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png
+[2025.08.30-04.47.14:687][483]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.08.30-04.47.14:699][483]LogStreaming: Display: FlushAsyncLoading(584): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.30-04.47.14:713][483]LogStaticMesh: Display: スタティックメッシュをビルド中 Sphere_inversenormals (推定必須メモリ：1.522745 MB)...
+[2025.08.30-04.47.14:733][483]LogStaticMesh: Built static mesh [0.03s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2025.08.30-04.47.14:738][483]LogStaticMesh: Display: スタティック メッシュの準備ができるのを待ってます。0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals)…
+[2025.08.30-04.47.14:754][483]LogStaticMesh: Display: スタティックメッシュをビルド中 Floor_Mesh (推定必須メモリ：0.022237 MB)...
+[2025.08.30-04.47.14:758][483]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2025.08.30-04.47.15:548][483]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.30-04.47.15:548][483]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.30-04.47.15:548][483]MaterialEditorStats: Shader Count: 0
+[2025.08.30-04.47.15:548][483]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.30-04.47.18:324][519]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.30-04.47.18:324][519]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.30-04.47.18:324][519]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.30-04.47.18:324][519]MaterialEditorStats: Shader Count: 1
+[2025.08.30-04.47.18:324][519]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.30-04.47.18:726][525]MaterialEditorStats: Base pass shader: 164 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.08.30-04.47.18:727][525]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.30-04.47.18:727][525]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.30-04.47.18:727][525]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.30-04.47.18:727][525]MaterialEditorStats: Shader Count: 2
+[2025.08.30-04.47.18:727][525]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.30-04.47.29:728][558]LogSlate: Window 'カラー ピッカー' being destroyed
+[2025.08.30-04.47.29:749][558]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.30-04.47.29:749][558]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.30-04.47.29:749][558]MaterialEditorStats: Shader Count: 0
+[2025.08.30-04.47.29:749][558]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.30-04.47.29:764][558]LogAutomationController: Ignoring very large delta of 7.52 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.30-04.47.30:537][569]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.30-04.47.30:537][569]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.30-04.47.30:537][569]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.30-04.47.30:537][569]MaterialEditorStats: Shader Count: 1
+[2025.08.30-04.47.30:537][569]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.30-04.47.30:870][574]MaterialEditorStats: Base pass shader: 167 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.08.30-04.47.30:870][574]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.30-04.47.30:870][574]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.30-04.47.30:870][574]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.30-04.47.30:870][574]MaterialEditorStats: Shader Count: 2
+[2025.08.30-04.47.30:870][574]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.30-04.47.44:124][769]LogShaderCompilers: Display: ================================================
+[2025.08.30-04.47.44:124][769]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.30-04.47.44:124][769]LogShaderCompilers: Display: Total job queries 1,355, among them cache hits 210 (15.50%), DDC hits 1,112 (82.07%), Duplicates 12 (0.89%)
+[2025.08.30-04.47.44:124][769]LogShaderCompilers: Display: Tracking 1,133 distinct input hashes that result in 885 distinct outputs (78.11%)
+[2025.08.30-04.47.44:124][769]LogShaderCompilers: Display: RAM used: 569.78 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.08.30-04.47.44:124][769]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.30-04.47.44:124][769]LogShaderCompilers: Display: Shaders Compiled: 21
+[2025.08.30-04.47.44:124][769]LogShaderCompilers: Display: Jobs assigned 21, completed 21 (100%)
+[2025.08.30-04.47.44:124][769]LogShaderCompilers: Display: Average time worker was idle: 80.29 s
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Time job spent in pending queue: average 0.19 s, longest 2.47 s
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Job execution time: average 2.11 s, max 3.55 s
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Job life time (pending + execution): average 2.30 s, max 3.63
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Shader code size: average 8.43 KiB, min 5.742 KiB, max 12.332 KiB
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.31 s
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Jobs were issued in 21 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Average processing rate: 1.58 jobs/sec
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Total thread time: 24.334 s
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Total thread preprocess time: 106.841 s
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Percentage time preprocessing: 439.05%
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Effective parallelization: 1.83 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    7 times, average 1.78 sec, max 2.04 sec, min 1.49 sec)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.99 sec, max 1.28 sec, min 0.82 sec)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    7 times, average 0.70 sec, max 0.88 sec, min 0.53 sec)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display:             TShadowDepthPSPixelShadowDepth_OnePassPointLight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 51.28% of total time (compiled    7 times, average 1.78 sec, max 2.04 sec, min 1.49 sec)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.62% of total time (compiled    7 times, average 0.99 sec, max 1.28 sec, min 0.82 sec)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.10% of total time (compiled    7 times, average 0.70 sec, max 0.88 sec, min 0.53 sec)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display:             TShadowDepthPSPixelShadowDepth_OnePassPointLight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: === Material stats ===
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Materials Translated:    143
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Material Total Translate Time: 0.52 s
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Material Translation Only: 0.27 s (52%)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.30-04.47.44:125][769]LogShaderCompilers: Display: ================================================
+[2025.08.30-04.47.47:515][779]LogSlate: Window 'メッセージ' being destroyed
+[2025.08.30-04.47.47:555][779]Message dialog closed, result: Yes, title: メッセージ, text: このマテリアルへの変更内容をオリジナルのマテリアルに適用しますか?
+/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial.NewMaterial
+(いいえを選択すると変更内容が失われます!)
+[2025.08.30-04.47.47:803][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.08.30-04.47.50:170][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.08.30-04.47.50:237][779]LogSlate: Window 'NewMaterial' being destroyed
+[2025.08.30-04.47.50:240][779]LogSlate: Window 'NewMaterial' being destroyed
+[2025.08.30-04.47.50:245][779]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.08.30-04.47.50:245][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.30-04.47.50:397][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.08.30-04.47.50:414][779]LogAutomationController: Ignoring very large delta of 5.59 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.30-04.48.10:112][207]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69.Sphere_03F17D69
+[2025.08.30-04.48.10:323][207]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.08.30-04.48.10:706][207]LogStreaming: Display: FlushAsyncLoading(588): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.30-04.48.12:130][207]LogAutomationController: Ignoring very large delta of 2.02 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.30-04.48.40:728][488]LogSlate: Window '親クラスを選択' being destroyed
+[2025.08.30-04.48.40:796][488]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.08.30-04.48.40:806][488]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.08.30-04.48.40:815][488]LogAutomationController: Ignoring very large delta of 3.18 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.30-04.48.40:832][489]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.08.30-04.48.41:825][521]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2025.08.30-04.48.41:839][521]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.08.30-04.48.43:690][569]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint.NewBlueprint
+[2025.08.30-04.48.43:691][569]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.08.30-04.49.17:986][968]LogAutomationController: Ignoring very large delta of 2.62 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.30-04.49.57:372][446]LogChildActorComponent: Error: Found cycle in child actor component '/Engine/Transient.World_14:PersistentLevel.NewBlueprint_C_0.NewBlueprint'.  Not spawning Actor of class 'NewBlueprint_C' to break.
+[2025.08.30-04.49.57:598][446]LogChildActorComponent: Error: Found cycle in child actor component '/Engine/Transient.World_14:PersistentLevel.NewBlueprint_C_0.NewBlueprint'.  Not spawning Actor of class 'NewBlueprint_C' to break.
+[2025.08.30-04.49.57:598][446]LogChildActorComponent: Error: Found cycle in child actor component '/Engine/Transient.World_14:PersistentLevel.NewBlueprint_C_0.NewBlueprint'.  Not spawning Actor of class 'NewBlueprint_C' to break.
+[2025.08.30-04.49.57:598][446]LogChildActorComponent: Error: Found cycle in child actor component '/Engine/Transient.World_14:PersistentLevel.NewBlueprint_C_0.NewBlueprint'.  Not spawning Actor of class 'NewBlueprint_C' to break.
+[2025.08.30-04.50.03:307][533]Cmd: TRANSACTION UNDO
+[2025.08.30-04.50.03:308][533]LogEditorTransaction: Undo コンポーネントを追加
+[2025.08.30-04.50.04:265][536]Cmd: TRANSACTION UNDO
+[2025.08.30-04.50.04:265][536]LogEditorTransaction: Undo コンポーネントを利用したマテリアルを置換
+[2025.08.30-04.50.12:062][605]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.08.30-04.50.44:156][ 73]LogShaderCompilers: Display: ================================================
+[2025.08.30-04.50.44:156][ 73]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.30-04.50.44:156][ 73]LogShaderCompilers: Display: Total job queries 1,368, among them cache hits 216 (15.79%), DDC hits 1,112 (81.29%), Duplicates 12 (0.88%)
+[2025.08.30-04.50.44:156][ 73]LogShaderCompilers: Display: Tracking 1,140 distinct input hashes that result in 890 distinct outputs (78.07%)
+[2025.08.30-04.50.44:156][ 73]LogShaderCompilers: Display: RAM used: 571.67 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.08.30-04.50.44:156][ 73]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Shaders Compiled: 28
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Jobs assigned 28, completed 28 (100%)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Average time worker was idle: 60.58 s
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Time job spent in pending queue: average 0.17 s, longest 2.47 s
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Job execution time: average 1.90 s, max 3.55 s
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Job life time (pending + execution): average 2.08 s, max 3.63
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Shader code size: average 8.236 KiB, min 4.133 KiB, max 12.332 KiB
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.42 s
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Jobs were issued in 28 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Average processing rate: 1.82 jobs/sec
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Total thread time: 29.84 s
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Total thread preprocess time: 107.18 s
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Percentage time preprocessing: 359.18%
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Effective parallelization: 1.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    7 times, average 1.78 sec, max 2.04 sec, min 1.49 sec)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.99 sec, max 1.28 sec, min 0.82 sec)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.77 sec, max 0.77 sec, min 0.77 sec)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 41.82% of total time (compiled    7 times, average 1.78 sec, max 2.04 sec, min 1.49 sec)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.34% of total time (compiled    7 times, average 0.99 sec, max 1.28 sec, min 0.82 sec)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.40% of total time (compiled    7 times, average 0.70 sec, max 0.88 sec, min 0.53 sec)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display:                                             FDebugViewModePS - 5.11% of total time (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 3.79% of total time (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: === Material stats ===
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Materials Translated:    146
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Material Total Translate Time: 0.52 s
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Material Translation Only: 0.27 s (52%)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.30-04.50.44:157][ 73]LogShaderCompilers: Display: ================================================
+[2025.08.30-04.51.21:566][455]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18446742772334472384
+[2025.08.30-04.51.21:567][455]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2025.08.30-04.51.21:585][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.30-04.51.56:018][645]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2025.08.30-04.51.56:145][645]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/ZD/WKRVSS8SDM1PCO78KZ06HV_Auto1
+[2025.08.30-04.51.56:145][645]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/WKRVSS8SDM1PCO78KZ06HV_Auto1A9F101F846CDB2D5DC8E1C981425B2A4.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/ZD/WKRVSS8SDM1PCO78KZ06HV_Auto1.uasset'
+[2025.08.30-04.51.56:153][645]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.299
+[2025.08.30-04.51.56:153][645]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.299
+[2025.08.30-04.51.56:154][645]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69] ([1] browsable assets)...
+[2025.08.30-04.51.56:168][645]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69.Sphere_03F17D69]
+[2025.08.30-04.51.56:168][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69]
+[2025.08.30-04.51.56:177][645]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69_Auto1
+[2025.08.30-04.51.56:177][645]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Sphere_03F17D69_Auto113BDFEC84FE3E4E9A25B9EADC1363D3C.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69_Auto1.uasset'
+[2025.08.30-04.51.56:178][645]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial] ([1] browsable assets)...
+[2025.08.30-04.51.56:189][645]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial.NewMaterial]
+[2025.08.30-04.51.56:189][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial]
+[2025.08.30-04.51.56:191][645]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial_Auto1
+[2025.08.30-04.51.56:191][645]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/NewMaterial_Auto1CEBF63FB4B59D50E6EED9482F442F668.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial_Auto1.uasset'
+[2025.08.30-04.51.56:193][645]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint] ([2] browsable assets)...
+[2025.08.30-04.51.56:201][645]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint.NewBlueprint]
+[2025.08.30-04.51.56:201][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint]
+[2025.08.30-04.51.56:207][645]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto1
+[2025.08.30-04.51.56:207][645]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/NewBlueprint_Auto1101C14E74BE6A2A59A07038E5105D327.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto1.uasset'
+[2025.08.30-04.51.56:208][645]LogFileHelpers: Auto-saving content packages took 0.055
+[2025.08.30-04.52.39:098][143]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1047.133789
+[2025.08.30-04.52.39:432][148]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-04.52.39:432][149]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1047.400146, Update Interval: 327.237762
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: ================================================
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Total job queries 1,378, among them cache hits 222 (16.11%), DDC hits 1,112 (80.70%), Duplicates 12 (0.87%)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Tracking 1,144 distinct input hashes that result in 892 distinct outputs (77.97%)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: RAM used: 572.53 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Shaders Compiled: 32
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Jobs assigned 32, completed 32 (100%)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Average time worker was idle: 93.68 s
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Time job spent in pending queue: average 0.17 s, longest 2.47 s
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Job execution time: average 1.88 s, max 3.55 s
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Job life time (pending + execution): average 2.05 s, max 3.63
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Shader code size: average 7.76 KiB, min 2.297 KiB, max 12.332 KiB
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 17.58 s
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Jobs were issued in 32 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Average processing rate: 1.82 jobs/sec
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Total thread time: 32.973 s
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Total thread preprocess time: 107.432 s
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Percentage time preprocessing: 325.81%
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Effective parallelization: 1.88 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    7 times, average 1.78 sec, max 2.04 sec, min 1.49 sec)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.97 sec, max 1.28 sec, min 0.82 sec)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.77 sec, max 0.77 sec, min 0.77 sec)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 37.84% of total time (compiled    7 times, average 1.78 sec, max 2.04 sec, min 1.49 sec)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.63% of total time (compiled    8 times, average 0.97 sec, max 1.28 sec, min 0.82 sec)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.84% of total time (compiled    7 times, average 0.70 sec, max 0.88 sec, min 0.53 sec)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.62% of total time (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.08.30-04.53.44:363][709]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 3.43% of total time (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.08.30-04.53.44:364][709]LogShaderCompilers: Display: === Material stats ===
+[2025.08.30-04.53.44:364][709]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.30-04.53.44:364][709]LogShaderCompilers: Display: Materials Translated:    146
+[2025.08.30-04.53.44:364][709]LogShaderCompilers: Display: Material Total Translate Time: 0.52 s
+[2025.08.30-04.53.44:364][709]LogShaderCompilers: Display: Material Translation Only: 0.27 s (52%)
+[2025.08.30-04.53.44:364][709]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.30-04.53.44:364][709]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.30-04.53.44:364][709]LogShaderCompilers: Display: ================================================
+[2025.08.30-04.55.40:198][100]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2025.08.30-04.58.15:759][297]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2025.08.30-04.58.19:356][321]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1387.390869
+[2025.08.30-04.58.20:354][324]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-04.58.20:354][324]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1388.056152, Update Interval: 357.006134
+[2025.08.30-05.00.06:526][828]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.08.30-05.00.06:527][828]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.08.30-05.01.54:405][703]LogStreaming: Display: FlushAsyncLoading(589): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.30-05.01.54:406][703]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint (0x8C2FD1E841619A1F) - The package to load does not exist on disk or in the loader
+[2025.08.30-05.01.54:406][703]LogUObjectGlobals: Warning: オブジェクト 'Class /Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint.NewBlueprint' が見つかりませんでした
+[2025.08.30-05.02.21:947][816]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2025.08.30-05.02.21:949][816]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.079
+[2025.08.30-05.02.21:950][816]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69] ([1] browsable assets)...
+[2025.08.30-05.02.21:950][816]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69]
+[2025.08.30-05.02.21:957][816]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69_Auto2
+[2025.08.30-05.02.21:957][816]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Sphere_03F17D69_Auto2048F36514163D2E523AEA39EB691E278.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69_Auto2.uasset'
+[2025.08.30-05.02.21:959][816]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint] ([2] browsable assets)...
+[2025.08.30-05.02.21:974][816]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint.NewBlueprint]
+[2025.08.30-05.02.21:974][816]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint]
+[2025.08.30-05.02.21:982][816]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto2
+[2025.08.30-05.02.21:982][816]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/NewBlueprint_Auto28A01A503460EC83085BA5B8B181A5877.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto2.uasset'
+[2025.08.30-05.02.21:983][816]LogFileHelpers: Auto-saving content packages took 0.034
+[2025.08.30-05.04.32:006][510]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2025.08.30-05.04.35:431][555]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1763.465332
+[2025.08.30-05.04.35:765][560]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-05.04.35:765][561]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1763.733154, Update Interval: 319.874878
+[2025.08.30-05.10.30:653][181]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2118.687256
+[2025.08.30-05.10.31:653][184]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-05.10.31:653][184]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2119.354736, Update Interval: 337.231964
+[2025.08.30-05.11.32:101][400]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2025.08.30-05.13.42:578][761]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.08.30-05.13.42:834][764]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: ================================================
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: Total job queries 1,384, among them cache hits 222 (16.04%), DDC hits 1,112 (80.35%), Duplicates 12 (0.87%)
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: Tracking 1,150 distinct input hashes that result in 896 distinct outputs (77.91%)
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: RAM used: 573.71 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: Shaders Compiled: 38
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: Jobs assigned 38, completed 38 (100%)
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: Average time worker was idle: 204.92 s
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: Time job spent in pending queue: average 0.15 s, longest 2.47 s
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: Job execution time: average 1.86 s, max 3.55 s
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: Job life time (pending + execution): average 2.01 s, max 3.63
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: Shader code size: average 7.898 KiB, min 2.297 KiB, max 12.332 KiB
+[2025.08.30-05.14.45:257][175]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 22.31 s
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Jobs were issued in 38 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Average processing rate: 1.70 jobs/sec
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Total thread time: 38.32 s
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Total thread preprocess time: 107.575 s
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Percentage time preprocessing: 280.73%
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Effective parallelization: 1.72 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    9 times, average 1.70 sec, max 2.04 sec, min 1.38 sec)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   10 times, average 0.93 sec, max 1.28 sec, min 0.75 sec)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.77 sec, max 0.77 sec, min 0.77 sec)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 39.92% of total time (compiled    9 times, average 1.70 sec, max 2.04 sec, min 1.38 sec)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.29% of total time (compiled   10 times, average 0.93 sec, max 1.28 sec, min 0.75 sec)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.41% of total time (compiled    9 times, average 0.66 sec, max 0.88 sec, min 0.50 sec)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display:                                             FDebugViewModePS - 3.98% of total time (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 2.95% of total time (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: === Material stats ===
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Materials Translated:    148
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Material Total Translate Time: 0.52 s
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Material Translation Only: 0.27 s (52%)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.30-05.14.45:258][175]LogShaderCompilers: Display: ================================================
+[2025.08.30-05.14.45:959][178]LogStreaming: Display: FlushAsyncLoading(590): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.30-05.14.46:598][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.Quinn_calf_l_anim (Required Memory Estimate: 2.80 MB)
+[2025.08.30-05.14.46:613][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.Quinn_calf_r_anim (Required Memory Estimate: 2.80 MB)
+[2025.08.30-05.14.46:628][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.Quinn_clavicle_l_anim (Required Memory Estimate: 2.35 MB)
+[2025.08.30-05.14.46:670][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.Quinn_clavicle_r_anim (Required Memory Estimate: 2.35 MB)
+[2025.08.30-05.14.46:677][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.Quinn_foot_l_anim (Required Memory Estimate: 1.45 MB)
+[2025.08.30-05.14.46:681][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.Quinn_calf_r_anim, at AnimationSequence/8d77eedbc5bc865a73c963ae0494c57c91acaf0d
+[2025.08.30-05.14.46:692][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.Quinn_calf_l_anim, at AnimationSequence/1fb58284e95dc98903d95980509ebeafe8b05488
+[2025.08.30-05.14.46:702][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.Quinn_clavicle_l_anim, at AnimationSequence/eb1f3645132c19c6f45501b2ca3c9f8f718c081d
+[2025.08.30-05.14.46:704][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.Quinn_foot_r_anim (Required Memory Estimate: 1.45 MB)
+[2025.08.30-05.14.46:706][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.Quinn_hand_l_anim (Required Memory Estimate: 1.90 MB)
+[2025.08.30-05.14.46:719][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.Quinn_foot_l_anim, at AnimationSequence/49dcf63837ae8f0e33a27bcef11a767527a39b20
+[2025.08.30-05.14.46:720][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.Quinn_clavicle_r_anim, at AnimationSequence/4dcd365de0f93bc0c094c751bef04a34b3d44e1a
+[2025.08.30-05.14.46:730][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.Quinn_hand_r_anim (Required Memory Estimate: 1.90 MB)
+[2025.08.30-05.14.46:734][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.Quinn_foot_r_anim, at AnimationSequence/3c589734e79e4e99d4a5eef6cbd5f5a4c4796868
+[2025.08.30-05.14.46:748][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.Quinn_lowerarm_l_anim (Required Memory Estimate: 4.61 MB)
+[2025.08.30-05.14.46:749][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.Quinn_hand_l_anim, at AnimationSequence/1319c50ce557b5dfded879a23133bdb4ae578fcc
+[2025.08.30-05.14.46:764][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.Quinn_lowerarm_r_anim (Required Memory Estimate: 4.61 MB)
+[2025.08.30-05.14.46:766][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.Quinn_hand_r_anim, at AnimationSequence/e0a14c4fcca154095db338afcd243aca2f0daa7a
+[2025.08.30-05.14.46:784][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.Quinn_thigh_l_anim (Required Memory Estimate: 6.41 MB)
+[2025.08.30-05.14.46:806][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.Quinn_lowerarm_l_anim, at AnimationSequence/361b1c12382886286f2c15e84e0d602725841af9
+[2025.08.30-05.14.46:808][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.Quinn_thigh_r_anim (Required Memory Estimate: 6.41 MB)
+[2025.08.30-05.14.46:826][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.Quinn_lowerarm_r_anim, at AnimationSequence/cc2b1e6f452301a13abebf6c4a7eae6d43660a29
+[2025.08.30-05.14.46:829][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.Quinn_upperarm_l_anim (Required Memory Estimate: 5.51 MB)
+[2025.08.30-05.14.46:868][178]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.Quinn_upperarm_r_anim (Required Memory Estimate: 5.51 MB)
+[2025.08.30-05.14.46:870][178]LogSkeletalMesh: Building Skeletal Mesh SKM_Quinn...
+[2025.08.30-05.14.46:871][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.Quinn_thigh_l_anim, at AnimationSequence/0111d097422079b6a0998ed49447b61877c6c8e2
+[2025.08.30-05.14.46:895][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.Quinn_thigh_r_anim, at AnimationSequence/7fc68fd196454c3471deb75402ae225556c50db9
+[2025.08.30-05.14.46:916][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.Quinn_upperarm_l_anim, at AnimationSequence/c6aa84b1fb6b08c5ec00f3eadebc3fcfc16e3c35
+[2025.08.30-05.14.46:937][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.Quinn_upperarm_r_anim, at AnimationSequence/96f0ad002e8a0d6ae8ef4c7c223051d2ee49d14d
+[2025.08.30-05.14.47:076][178]LogSkeletalMesh: Display: スキン処理されたアセットの準備ができるのを待ってます。0/1 (SKM_Quinn)…
+[2025.08.30-05.14.48:062][178]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.08.30-05.14.53:176][178]LogSkeletalMeshReduction: Reducing skeletal mesh for LOD 2 
+[2025.08.30-05.14.53:188][178]LogSkeletalMeshReduction: Reducing skeletal mesh for LOD 3 
+[2025.08.30-05.14.59:935][178]LogSkeletalMesh: Skeletal mesh [/Game/Characters/Mannequins/Meshes/SKM_Quinn.SKM_Quinn]: The derived data key is different after the build. Save the asset to avoid rebuilding it everytime the editor load it.
+[2025.08.30-05.14.59:966][178]LogSkeletalMesh: Built Skeletal Mesh [13.10s] /Game/Characters/Mannequins/Meshes/SKM_Quinn.SKM_Quinn
+[2025.08.30-05.14.59:972][178]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.08.30-05.15.00:072][178]LogAutomationController: Ignoring very large delta of 14.11 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.30-05.15.00:118][179]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.08.30-05.15.28:719][360]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.08.30-05.15.31:156][379]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.08.30-05.15.33:250][394]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.08.30-05.16.02:098][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.08.30-05.16.02:106][606]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.112
+[2025.08.30-05.16.02:106][606]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint] ([2] browsable assets)...
+[2025.08.30-05.16.02:118][606]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint.NewBlueprint]
+[2025.08.30-05.16.02:118][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint]
+[2025.08.30-05.16.02:128][606]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto3
+[2025.08.30-05.16.02:128][606]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/NewBlueprint_Auto341D4F7934C8097437C44C7BBE61DB245.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto3.uasset'
+[2025.08.30-05.16.02:130][606]LogFileHelpers: Auto-saving content packages took 0.024
+[2025.08.30-05.16.04:037][621]Cmd: DELETE
+[2025.08.30-05.16.04:037][621]Cmd: ACTOR DELETE
+[2025.08.30-05.16.04:042][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.08.30-05.16.04:087][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2025.08.30-05.16.04:090][621]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2025.08.30-05.16.08:649][676]Cmd: TRANSACTION UNDO
+[2025.08.30-05.16.08:649][676]LogEditorTransaction: Undo 要素をクリックしています
+[2025.08.30-05.16.09:549][680]Cmd: TRANSACTION UNDO
+[2025.08.30-05.16.09:549][680]LogEditorTransaction: Undo 要素を削除
+[2025.08.30-05.16.59:567][167]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2507.606934
+[2025.08.30-05.17.00:401][170]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-05.17.00:401][170]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2508.008545, Update Interval: 328.365723
+[2025.08.30-05.17.45:385][567]LogShaderCompilers: Display: ================================================
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Total job queries 1,387, among them cache hits 222 (16.01%), DDC hits 1,112 (80.17%), Duplicates 12 (0.87%)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Tracking 1,153 distinct input hashes that result in 899 distinct outputs (77.97%)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: RAM used: 574.62 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Shaders Compiled: 41
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Jobs assigned 41, completed 41 (100%)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Average time worker was idle: 198.45 s
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Time job spent in pending queue: average 0.14 s, longest 2.47 s
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Job execution time: average 1.89 s, max 3.55 s
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Job life time (pending + execution): average 2.03 s, max 3.63
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Shader code size: average 7.989 KiB, min 2.297 KiB, max 12.332 KiB
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 25.22 s
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Jobs were issued in 41 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Average processing rate: 1.63 jobs/sec
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Total thread time: 41.833 s
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Total thread preprocess time: 107.646 s
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Percentage time preprocessing: 257.32%
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Effective parallelization: 1.66 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   10 times, average 1.70 sec, max 2.04 sec, min 1.38 sec)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   11 times, average 0.94 sec, max 1.28 sec, min 0.75 sec)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.77 sec, max 0.77 sec, min 0.77 sec)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 40.73% of total time (compiled   10 times, average 1.70 sec, max 2.04 sec, min 1.38 sec)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.69% of total time (compiled   11 times, average 0.94 sec, max 1.28 sec, min 0.75 sec)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.91% of total time (compiled   10 times, average 0.67 sec, max 0.88 sec, min 0.50 sec)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display:                                             FDebugViewModePS - 3.65% of total time (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 2.71% of total time (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: === Material stats ===
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.30-05.17.45:387][567]LogShaderCompilers: Display: Materials Translated:    148
+[2025.08.30-05.17.45:388][567]LogShaderCompilers: Display: Material Total Translate Time: 0.52 s
+[2025.08.30-05.17.45:388][567]LogShaderCompilers: Display: Material Translation Only: 0.27 s (52%)
+[2025.08.30-05.17.45:388][567]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.30-05.17.45:388][567]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.30-05.17.45:388][567]LogShaderCompilers: Display: ================================================
+[2025.08.30-05.23.12:617][278]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2880.660156
+[2025.08.30-05.23.13:116][283]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-05.23.13:116][283]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2881.060059, Update Interval: 303.495575
+[2025.08.30-05.23.40:601][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2025.08.30-05.23.40:933][549]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2025.08.30-05.26.02:718][  4]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2025.08.30-05.26.02:724][  4]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/ZD/WKRVSS8SDM1PCO78KZ06HV_Auto4
+[2025.08.30-05.26.02:724][  4]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/WKRVSS8SDM1PCO78KZ06HV_Auto49A5E3F9544F13991AD55988C1241B49C.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/ZD/WKRVSS8SDM1PCO78KZ06HV_Auto4.uasset'
+[2025.08.30-05.26.02:726][  4]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.057
+[2025.08.30-05.26.02:726][  4]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.057
+[2025.08.30-05.26.02:727][  4]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69] ([1] browsable assets)...
+[2025.08.30-05.26.02:727][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69]
+[2025.08.30-05.26.02:734][  4]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69_Auto4
+[2025.08.30-05.26.02:734][  4]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Sphere_03F17D69_Auto4B7DC6CEE4C02E6CF63C29A8CA6A77BC0.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69_Auto4.uasset'
+[2025.08.30-05.26.02:735][  4]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial] ([1] browsable assets)...
+[2025.08.30-05.26.02:735][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial]
+[2025.08.30-05.26.02:738][  4]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial_Auto4
+[2025.08.30-05.26.02:738][  4]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/NewMaterial_Auto4D8FD1D8348B699D8A724989285DC4C77.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial_Auto4.uasset'
+[2025.08.30-05.26.02:739][  4]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint] ([2] browsable assets)...
+[2025.08.30-05.26.02:754][  4]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint.NewBlueprint]
+[2025.08.30-05.26.02:754][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint]
+[2025.08.30-05.26.02:762][  4]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto4
+[2025.08.30-05.26.02:762][  4]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/NewBlueprint_Auto4CD2CBF564D51C78F0D736788E900E683.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto4.uasset'
+[2025.08.30-05.26.02:763][  4]LogFileHelpers: Auto-saving content packages took 0.038
+[2025.08.30-05.29.15:620][583]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3243.667236
+[2025.08.30-05.29.16:621][586]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-05.29.16:621][586]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3244.333496, Update Interval: 338.896454
+[2025.08.30-05.34.20:404][ 75]LogSlate: Window '親クラスを選択' being destroyed
+[2025.08.30-05.34.20:446][ 75]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.08.30-05.34.20:464][ 75]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.08.30-05.34.20:477][ 75]LogAutomationController: Ignoring very large delta of 14.11 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.30-05.34.20:496][ 76]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.08.30-05.34.21:465][ 94]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2025.08.30-05.34.21:479][ 94]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.08.30-05.34.29:749][176]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2025.08.30-05.34.32:012][196]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2025.08.30-05.34.33:689][196]LogSlate: Window 'Delete Assets' being destroyed
+[2025.08.30-05.34.33:856][196]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.08.30-05.34.33:856][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.30-05.34.33:904][196]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2025.08.30-05.34.33:948][196]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2025.08.30-05.34.33:989][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.08.30-05.34.34:037][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.08.30-05.34.34:052][196]LogAutomationController: Ignoring very large delta of 2.22 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.30-05.34.43:604][264]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2025.08.30-05.34.43:634][264]LogContentBrowser: Creating deferred item: NewInterface
+[2025.08.30-05.34.43:669][265]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2025.08.30-05.34.52:846][396]LogContentBrowser: Attempting asset rename: NewInterface -> igr
+[2025.08.30-05.34.52:858][396]LogContentBrowser: End creating deferred item NewInterface
+[2025.08.30-05.35.00:424][484]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/igr.igr
+[2025.08.30-05.35.00:424][484]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2025.08.30-05.35.42:340][866]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3630.382324
+[2025.08.30-05.35.42:807][872]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-05.35.42:807][872]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3630.748779, Update Interval: 334.743500
+[2025.08.30-05.36.32:086][210]LogDerivedDataCache: C:/Users/ktc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.30-05.36.37:638][234]LogSlate: Took 0.111800 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.08.30-05.36.47:066][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2025.08.30-05.36.47:069][306]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.159
+[2025.08.30-05.36.47:073][306]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint] ([2] browsable assets)...
+[2025.08.30-05.36.47:073][306]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2025.08.30-05.36.47:117][306]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint.NewBlueprint]
+[2025.08.30-05.36.47:118][306]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint]
+[2025.08.30-05.36.47:125][306]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto5
+[2025.08.30-05.36.47:125][306]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/NewBlueprint_Auto5C5D6ABE844AF6EFDF656FB923160DDE2.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto5.uasset'
+[2025.08.30-05.36.47:127][306]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/igr] ([2] browsable assets)...
+[2025.08.30-05.36.47:127][306]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/igr]
+[2025.08.30-05.36.47:129][306]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/igr_Auto5
+[2025.08.30-05.36.47:129][306]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/igr_Auto5F60ABC0E4832C1C7A0DB369E75D6B90C.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Blueprints/igr_Auto5.uasset'
+[2025.08.30-05.36.47:130][306]LogFileHelpers: Auto-saving content packages took 0.058
+[2025.08.30-05.38.51:511][289]LogSlate: Window 'メッセージ' being destroyed
+[2025.08.30-05.38.51:547][289]Message dialog closed, result: No, title: メッセージ, text: インターフェース機能をブループリントの一部として移動しますか？
+[2025.08.30-05.38.51:758][289]LogAutomationController: Ignoring very large delta of 3.34 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.30-05.41.22:233][387]LogContentBrowser: Attempting asset rename: igr -> igr
+[2025.08.30-05.41.28:986][463]LogContentBrowser: Attempting asset rename: igr -> BPI_MyCharacter
+[2025.08.30-05.41.29:502][463]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BPI_MyCharacter.SKEL_BPI_MyCharacter_C' ref from Metadata '/Game/ThirdPerson/Blueprints/igr.PackageMetaData'
+[2025.08.30-05.41.29:502][463]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BPI_MyCharacter.BPI_MyCharacter_C' ref from Metadata '/Game/ThirdPerson/Blueprints/igr.PackageMetaData'
+[2025.08.30-05.41.29:502][463]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BPI_MyCharacter.BPI_MyCharacter:CharacterHitAction.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPerson/Blueprints/igr.PackageMetaData'
+[2025.08.30-05.41.29:502][463]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BPI_MyCharacter.SKEL_BPI_MyCharacter_C:CharacterHitAction' ref from Metadata '/Game/ThirdPerson/Blueprints/igr.PackageMetaData'
+[2025.08.30-05.41.29:513][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.30-05.41.29:515][463]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BPI_MyCharacter] ([2] browsable assets)...
+[2025.08.30-05.41.29:515][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BPI_MyCharacter]
+[2025.08.30-05.41.29:515][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BPI_MyCharacter" FILE="../../../../../../Users/ktc/Documents/Public/MyProject2/Content/ThirdPerson/Blueprints/BPI_MyCharacter.uasset" SILENT=true
+[2025.08.30-05.41.29:517][463]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BPI_MyCharacter
+[2025.08.30-05.41.29:517][463]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/BPI_MyCharacterACA416ED4EB4A5F9A72ADDAD4518980F.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Content/ThirdPerson/Blueprints/BPI_MyCharacter.uasset'
+[2025.08.30-05.41.29:526][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 13.357 ms
+[2025.08.30-05.41.29:596][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2025.08.30-05.41.29:636][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.08.30-05.41.29:671][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.08.30-05.41.29:816][463]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.30-05.41.29:816][463]LogContentValidation: Enabled validators:
+[2025.08.30-05.41.29:817][463]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.30-05.41.29:817][463]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.30-05.41.29:817][463]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.30-05.41.29:817][463]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.30-05.41.29:817][463]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.30-05.41.29:817][463]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.30-05.41.29:817][463]AssetCheck: /Game/ThirdPerson/Blueprints/BPI_MyCharacter アセットを検証しています
+[2025.08.30-05.42.17:140][887]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4025.182617
+[2025.08.30-05.42.18:145][890]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-05.42.18:145][890]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4025.853516, Update Interval: 311.288788
+[2025.08.30-05.42.44:667][972]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2025.08.30-05.43.36:730][400]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2025.08.30-05.45.02:999][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2025.08.30-05.45.07:523][154]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2025.08.30-05.45.07:534][154]LogContentBundle: [ThirdPersonMap(スタンドアロン)] Generating Streaming for 0 Content Bundles.
+[2025.08.30-05.45.07:534][154]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.08.30-05.45.07:576][154]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 41.500 ms (total: 48.202 ms)
+[2025.08.30-05.45.07:576][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.30-05.45.07:576][154]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.08.30-05.45.07:583][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006711s)
+[2025.08.30-05.45.07:583][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006785s)
+[2025.08.30-05.45.07:623][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2025.08.30-05.45.07:625][154]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.08.30-05.45.07:628][154]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.08.30-05.45.07:628][154]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.08.30-05.45.07:628][154]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.08.30-05.45.07:628][154]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.08.30-05.45.07:631][154]LogWorldPartition: Display: WorldPartition initialize took 2.438 ms (total: 324.846 ms)
+[2025.08.30-05.45.07:631][154]LogPlayLevel: PIE: World Init took: (0.005870s)
+[2025.08.30-05.45.07:633][154]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.08.30-05.45.07:633][154]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.30-05.45.07:633][154]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.30-05.45.07:633][154]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.30-05.45.07:633][154]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.30-05.45.07:633][154]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.30-05.45.07:633][154]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.30-05.45.07:633][154]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.30-05.45.07:633][154]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.30-05.45.07:633][154]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.30-05.45.07:633][154]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.30-05.45.07:633][154]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.30-05.45.07:637][154]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.30-05.45.07:660][154]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2025.08.30-05.45.07:661][154]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.30-05.45.07:661][154]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.30-05.45.07:661][154]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.30-05.45.07:663][154]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.08.30-05.45.07:663][154]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.08.30-05.45.07:667][154]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.08.30-05.45.07:667][154]LogInit: FAudioDevice initialized with ID 3.
+[2025.08.30-05.45.07:667][154]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.08.30-05.45.07:667][154]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2025.08.30-05.45.07:667][154]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.08.30-05.45.07:697][154]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.08.30-05.45.07:700][154]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.08.30-14.45.07
+[2025.08.30-05.45.07:701][154]LogWorld: Bringing up level for play took: 0.003876
+[2025.08.30-05.45.07:705][154]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.08.30-05.45.07:715][154]PIE: サーバーにログインしました
+[2025.08.30-05.45.07:716][154]PIE: PIE合計開始時間 0.183 秒。
+[2025.08.30-05.45.44:172][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.30-05.45.44:172][698]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.08.30-05.45.44:172][698]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.08.30-05.45.44:173][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.30-05.45.44:173][698]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.08.30-05.45.44:265][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.30-05.45.44:273][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.30-05.45.44:312][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.30-05.45.44:312][698]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.08.30-05.45.44:312][698]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.08.30-05.45.44:316][698]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.08.30-05.45.44:329][698]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2025.08.30-05.45.44:495][699]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.08.30-05.47.03:497][563]LogEditorTransaction: Undo 選択対象を削除します
+[2025.08.30-05.47.04:117][563]LogEditorTransaction: Undo 要素をクリックしています
+[2025.08.30-05.47.04:514][563]LogEditorTransaction: Undo ノードを追加
+[2025.08.30-05.47.04:870][563]LogEditorTransaction: Undo PIEリンクを作成
+[2025.08.30-05.47.05:966][563]LogAutomationController: Ignoring very large delta of 2.51 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.30-05.47.07:085][576]LogEditorTransaction: Undo PIEリンクを作成
+[2025.08.30-05.47.07:478][576]LogEditorTransaction: Undo PIEリンクを作成
+[2025.08.30-05.47.07:877][576]LogEditorTransaction: Undo ノードを移動
+[2025.08.30-05.47.08:773][577]LogEditorTransaction: Undo ノードを追加
+[2025.08.30-05.47.09:409][578]LogEditorTransaction: Undo ノードを追加
+[2025.08.30-05.47.47:377][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2025.08.30-05.47.47:384][ 78]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/ZD/WKRVSS8SDM1PCO78KZ06HV_Auto6
+[2025.08.30-05.47.47:384][ 78]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/WKRVSS8SDM1PCO78KZ06HV_Auto6836BAFC843D5CD7E44876092DB03B626.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/ZD/WKRVSS8SDM1PCO78KZ06HV_Auto6.uasset'
+[2025.08.30-05.47.47:387][ 78]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.055
+[2025.08.30-05.47.47:387][ 78]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.055
+[2025.08.30-05.47.47:387][ 78]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.08.30-05.47.47:388][ 78]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2025.08.30-05.47.47:418][ 78]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C]
+[2025.08.30-05.47.47:425][ 78]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.08.30-05.47.47:425][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.08.30-05.47.47:444][ 78]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto6
+[2025.08.30-05.47.47:444][ 78]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/BP_ThirdPersonCharacter_Auto6244E148D4548C95883E610B13A838A8A.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto6.uasset'
+[2025.08.30-05.47.47:445][ 78]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69] ([1] browsable assets)...
+[2025.08.30-05.47.47:445][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69]
+[2025.08.30-05.47.47:453][ 78]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69_Auto6
+[2025.08.30-05.47.47:453][ 78]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Sphere_03F17D69_Auto6FF9F2A324BF4B4FF4359618CB6685797.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/Sphere_03F17D69_Auto6.uasset'
+[2025.08.30-05.47.47:455][ 78]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial] ([1] browsable assets)...
+[2025.08.30-05.47.47:455][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial]
+[2025.08.30-05.47.47:457][ 78]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial_Auto6
+[2025.08.30-05.47.47:457][ 78]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/NewMaterial_Auto609AD09F64ABB6688F7F6998748EE1F85.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewMaterial_Auto6.uasset'
+[2025.08.30-05.47.47:459][ 78]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint] ([2] browsable assets)...
+[2025.08.30-05.47.47:468][ 78]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint.NewBlueprint]
+[2025.08.30-05.47.47:469][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint]
+[2025.08.30-05.47.47:477][ 78]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto6
+[2025.08.30-05.47.47:477][ 78]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/NewBlueprint_Auto680AB2271421F29A5718825A31C12B225.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/ktc/NewBlueprint_Auto6.uasset'
+[2025.08.30-05.47.47:477][ 78]LogFileHelpers: Auto-saving content packages took 0.092
+[2025.08.30-05.48.19:421][540]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4387.501953
+[2025.08.30-05.48.19:823][546]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-05.48.19:823][546]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4387.835449, Update Interval: 317.996155
+[2025.08.30-05.48.49:811][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2025.08.30-05.50.03:750][981]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2025.08.30-05.50.03:759][981]LogContentBundle: [ThirdPersonMap(スタンドアロン)] Generating Streaming for 0 Content Bundles.
+[2025.08.30-05.50.03:759][981]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.08.30-05.50.03:762][981]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3.641 ms (total: 51.844 ms)
+[2025.08.30-05.50.03:764][981]LogPlayLevel: [PlayLevel] Compiling NewBlueprint before play...
+[2025.08.30-05.50.03:850][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2025.08.30-05.50.03:853][981]LogPlayLevel: PlayLevel: Blueprint regeneration took 90 ms (1 blueprints)
+[2025.08.30-05.50.03:853][981]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.08.30-05.50.03:860][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006622s)
+[2025.08.30-05.50.03:861][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006688s)
+[2025.08.30-05.50.03:899][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2025.08.30-05.50.03:900][981]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.08.30-05.50.03:904][981]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.08.30-05.50.03:904][981]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.08.30-05.50.03:904][981]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.08.30-05.50.03:904][981]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.08.30-05.50.03:906][981]LogWorldPartition: Display: WorldPartition initialize took 2.641 ms (total: 327.488 ms)
+[2025.08.30-05.50.03:906][981]LogPlayLevel: PIE: World Init took: (0.005906s)
+[2025.08.30-05.50.03:909][981]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.08.30-05.50.03:909][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.30-05.50.03:909][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.30-05.50.03:909][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.30-05.50.03:909][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.30-05.50.03:909][981]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.30-05.50.03:909][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.30-05.50.03:909][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.30-05.50.03:909][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.30-05.50.03:909][981]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.30-05.50.03:909][981]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.30-05.50.03:909][981]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.30-05.50.03:914][981]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.30-05.50.03:937][981]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2025.08.30-05.50.03:937][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.30-05.50.03:937][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.30-05.50.03:937][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.30-05.50.03:938][981]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.08.30-05.50.03:938][981]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.08.30-05.50.03:942][981]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.08.30-05.50.03:942][981]LogInit: FAudioDevice initialized with ID 4.
+[2025.08.30-05.50.03:942][981]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.08.30-05.50.03:942][981]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2025.08.30-05.50.03:942][981]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.08.30-05.50.03:947][981]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.08.30-05.50.03:951][981]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.08.30-14.50.03
+[2025.08.30-05.50.03:951][981]LogWorld: Bringing up level for play took: 0.003469
+[2025.08.30-05.50.03:955][981]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.08.30-05.50.03:964][981]PIE: サーバーにログインしました
+[2025.08.30-05.50.03:966][981]PIE: PIE合計開始時間 0.207 秒。
+[2025.08.30-05.50.12:277][296]Cmd: ToggleDebugCamera
+[2025.08.30-05.50.12:776][320]Set new viewmode: VisualizeBuffer
+[2025.08.30-05.50.12:816][321]LogSlate: Took 0.000614 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.08.30-05.50.12:818][321]LogSlate: Took 0.001121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
+[2025.08.30-05.50.13:056][332]Cmd: FreezeRendering
+[2025.08.30-05.50.13:056][332]LogConsoleResponse: Display: Freezing Foliage Culling.
+[2025.08.30-05.50.18:600][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.30-05.50.18:600][522]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.08.30-05.50.18:601][522]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.08.30-05.50.18:602][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.30-05.50.18:602][522]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.08.30-05.50.18:700][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.30-05.50.18:708][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.30-05.50.18:747][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.30-05.50.18:748][522]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.08.30-05.50.18:748][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.08.30-05.50.18:751][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.08.30-05.50.18:765][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2025.08.30-05.50.18:911][523]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: ================================================
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Total job queries 1,451, among them cache hits 254 (17.51%), DDC hits 1,112 (76.64%), Duplicates 27 (1.86%)
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Tracking 1,170 distinct input hashes that result in 915 distinct outputs (78.21%)
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: RAM used: 581.84 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Shaders Compiled: 58
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Jobs assigned 58, completed 58 (100%)
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Average time worker was idle: 623.32 s
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Time job spent in pending queue: average 0.60 s, longest 3.40 s
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Job execution time: average 1.87 s, max 3.55 s
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Job life time (pending + execution): average 2.47 s, max 4.01
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Shader code size: average 6.696 KiB, min 2.188 KiB, max 12.332 KiB
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 29.29 s
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.19%
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Jobs were issued in 58 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Average processing rate: 1.98 jobs/sec
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Total thread time: 52.53 s
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Total thread preprocess time: 109.235 s
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Percentage time preprocessing: 207.95%
+[2025.08.30-05.50.46:157][993]LogShaderCompilers: Display: Effective parallelization: 1.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   10 times, average 1.70 sec, max 2.04 sec, min 1.38 sec)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   11 times, average 0.94 sec, max 1.28 sec, min 0.75 sec)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.77 sec, max 0.77 sec, min 0.77 sec)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 32.44% of total time (compiled   10 times, average 1.70 sec, max 2.04 sec, min 1.38 sec)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display:                                       FPostProcessMaterialPS - 20.33% of total time (compiled   16 times, average 0.67 sec, max 0.76 sec, min 0.54 sec)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.66% of total time (compiled   11 times, average 0.94 sec, max 1.28 sec, min 0.75 sec)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.67% of total time (compiled   10 times, average 0.67 sec, max 0.88 sec, min 0.50 sec)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display:                                             FDebugViewModePS - 2.90% of total time (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display: === Material stats ===
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display: Materials Translated:    148
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display: Material Total Translate Time: 0.52 s
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display: Material Translation Only: 0.27 s (52%)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.30-05.50.46:158][993]LogShaderCompilers: Display: ================================================
+[2025.08.30-05.54.24:586][396]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4752.691406
+[2025.08.30-05.54.25:086][401]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-05.54.25:086][401]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4753.091309, Update Interval: 350.357361
+[2025.08.30-05.58.03:227][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2025.08.30-05.58.03:231][554]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.052
+[2025.08.30-05.58.03:231][554]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.08.30-05.58.03:249][554]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.08.30-05.58.03:250][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.08.30-05.58.03:267][554]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto7
+[2025.08.30-05.58.03:267][554]LogSavePackage: Moving '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/BP_ThirdPersonCharacter_Auto7E2A559C64227FADC3636B1981F623A3D.tmp' to '../../../../../../Users/ktc/Documents/Public/MyProject2/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto7.uasset'
+[2025.08.30-05.58.03:272][554]LogFileHelpers: Auto-saving content packages took 0.042
+[2025.08.30-06.01.03:280][346]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5151.422363
+[2025.08.30-06.01.03:678][350]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-06.01.03:678][350]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5151.723145, Update Interval: 359.873657
